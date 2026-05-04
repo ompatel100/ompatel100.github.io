@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- <meta property="og:title" content="" />
+    <meta property="og:description" content="" />
+    <meta
+      property="og:image"
+      content=""
+    />
+    <meta property="og:url" content="" /> -->
+    <title>Om Patel | Portfolio</title>
+    <style>
+      :root {
+        --bg-color: #ffffff;
+        --text-main: #111827;
+        --text-muted: #4b5563;
+        --border-color: #e5e7eb;
+        --accent-color: #2563eb;
+        --code-bg: #f3f4f6;
+        --font-sans:
+          ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+          "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+        --font-mono:
+          ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
+          "Liberation Mono", "Courier New", monospace;
+      }
+
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg-color: #0d1117;
+          --text-main: #c9d1d9;
+          --text-muted: #8b949e;
+          --border-color: #30363d;
+          --accent-color: #58a6ff;
+          --code-bg: #161b22;
+        }
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: var(--font-sans);
+        background-color: var(--bg-color);
+        color: var(--text-main);
+        line-height: 1.6;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      .container {
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 4rem 1.5rem;
+      }
+
+      h1,
+      h2,
+      h3 {
+        font-weight: 600;
+        margin-top: 2rem;
+        margin-bottom: 1rem;
+        color: var(--text-main);
+      }
+
+      h1 {
+        font-size: 2.5rem;
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        letter-spacing: -0.02em;
+      }
+
+      h2 {
+        font-size: 1.5rem;
+        border-bottom: 1px solid var(--border-color);
+        padding-bottom: 0.5rem;
+      }
+
+      p {
+        margin-bottom: 1rem;
+        color: var(--text-muted);
+      }
+
+      a {
+        color: var(--text-main);
+        text-decoration: underline;
+        text-decoration-color: var(--border-color);
+        text-underline-offset: 4px;
+        transition: all 0.2s ease;
+      }
+
+      a:hover {
+        color: var(--accent-color);
+        text-decoration-color: var(--accent-color);
+      }
+
+      .item {
+        margin-bottom: 2rem;
+      }
+
+      .item-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: baseline;
+        margin-bottom: 0.25rem;
+      }
+
+      .item-title {
+        font-weight: 600;
+        font-size: 1.1rem;
+      }
+
+      .item-meta {
+        font-family: var(--font-mono);
+        font-size: 0.85rem;
+        color: var(--text-muted);
+      }
+
+      ul {
+        margin-left: 1.5rem;
+        margin-bottom: 1rem;
+        color: var(--text-muted);
+      }
+
+      li {
+        margin-bottom: 0.5rem;
+      }
+
+      .skill-category {
+        margin-bottom: 1.5rem;
+      }
+
+      .skill-category h3 {
+        font-size: 0.95rem;
+        font-weight: 600;
+        color: var(--text-main);
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+        font-family: var(--font-sans);
+      }
+
+      .skill-category .tags {
+        margin-top: 0;
+      }
+
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        margin-top: 0.5rem;
+      }
+
+      .tag {
+        background-color: var(--code-bg);
+        border: 1px solid var(--border-color);
+        padding: 0.2rem 0.6rem;
+        border-radius: 4px;
+        font-family: var(--font-mono);
+        font-size: 0.8rem;
+        color: var(--text-main);
+      }
+
+      .links {
+        display: flex;
+        gap: 1.5rem;
+        margin-top: 2rem;
+        font-family: var(--font-mono);
+        font-size: 0.9rem;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <header>
+        <h1>Om Patel</h1>
+        <p>Software Engineering Student | Backend</p>
+      </header>
+
+      <div class="links">
+        <a href="https://github.com/ompatel100">github.com/ompatel100</a>
+        <a href="https://linkedin.com/in/ompatel100"
+          >linkedin.com/in/ompatel100</a
+        >
+        <a href="mailto:ompatel100.dev@gmail.com">ompatel100.dev@gmail.com</a>
+      </div>
+
+      <section>
+        <h2>About</h2>
+        <p>
+          Pre-final year CSE student focused on backend, system design, and
+          cloud.
+        </p>
+      </section>
+
+      <section>
+        <h2>Skills</h2>
+
+        <div class="skill-category">
+          <h3>Programming Languages</h3>
+          <div class="tags">
+            <span class="tag">Java</span>
+            <span class="tag">Python</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">TypeScript</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Backend</h3>
+          <div class="tags">
+            <span class="tag">Spring Boot</span>
+            <span class="tag">Spring Framework</span>
+            <span class="tag">Express.js</span>
+            <span class="tag">Django</span>
+            <span class="tag">RESTful APIs</span>
+            <span class="tag">JWT</span>
+            <span class="tag">OAuth2</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Databases</h3>
+          <div class="tags">
+            <span class="tag">SQL</span>
+            <span class="tag">PostgreSQL</span>
+            <span class="tag">MongoDB</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Cloud & DevOps</h3>
+          <div class="tags">
+            <span class="tag">Docker</span>
+            <span class="tag">AWS</span>
+            <span class="tag">Github Actions</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Tools</h3>
+          <div class="tags">
+            <span class="tag">Git</span>
+            <span class="tag">Maven</span>
+            <span class="tag">Postman</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Frontend</h3>
+          <div class="tags">
+            <span class="tag">HTML / CSS</span>
+            <span class="tag">Tailwind CSS</span>
+            <span class="tag">React.js</span>
+            <span class="tag">Web Workers</span>
+          </div>
+        </div>
+
+        <div class="skill-category">
+          <h3>Data Analysis</h3>
+          <div class="tags">
+            <span class="tag">Pandas</span>
+            <span class="tag">NumPy</span>
+            <span class="tag">Matplotlib</span>
+            <span class="tag">Seaborn</span>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Projects</h2>
+
+        <div class="item">
+          <div class="item-header">
+            <span class="item-title">VidScan CLI</span>
+            <span class="item-meta"
+              ><a href="https://pypi.org/project/vidscan">PyPI</a> /
+              <a href="https://github.com/ompatel100/vidscan">GitHub</a>
+            </span>
+          </div>
+          <!-- <ul>
+            <li></li>
+          </ul> -->
+        </div>
+
+        <div class="item">
+          <div class="item-header">
+            <span class="item-title">Vidscan Web</span>
+            <span class="item-meta"
+              ><a href="https://vidscan.localplayer.dev">Live</a> /
+              <a href="https://github.com/ompatel100/vidscan">GitHub</a></span
+            >
+          </div>
+          <!-- <ul>
+            <li></li>
+          </ul> -->
+        </div>
+
+        <div class="item">
+          <div class="item-header">
+            <span class="item-title">Price Tracker</span>
+            <span class="item-meta"
+              ><a href="https://github.com/ompatel100/price-tracker"
+                >GitHub</a
+              ></span
+            >
+          </div>
+          <!-- <ul>
+            <li></li>
+          </ul> -->
+        </div>
+
+        <div class="item">
+          <div class="item-header">
+            <span class="item-title">FirePlay</span>
+            <span class="item-meta">Private Repo</span>
+          </div>
+          <!-- <ul>
+            <li></li>
+          </ul> -->
+        </div>
+      </section>
+
+      <section>
+        <h2>Education</h2>
+        <div class="item">
+          <div class="item-header">
+            <span class="item-title"
+              >B.E. in Computer Science & Engineering</span
+            >
+            <span class="item-meta">Expected Graduation: 2027</span>
+          </div>
+          <p>LJ University, Ahmedabad</p>
+        </div>
+      </section>
+    </div>
+  </body>
+</html>
